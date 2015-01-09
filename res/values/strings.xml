@@ -1,0 +1,47 @@
+<resources>
+  <string name="app_name">Better Snake</string>
+  <string name="options">Snake Options</string>
+  <string name="optionsButton">Options</string>
+  <string name="begin">Start</string>
+  <string name="wall">Walls</string>
+  <string name="color">Snake Color</string>
+  <string name="AI">AI</string>
+  <string name="speed">Speed</string>
+  <string name="mode">Board size</string>
+  <string name="back">Back</string>
+
+  <string-array name="optionsTheme">
+    <item>Pass trough</item>
+    <item>Collide</item>
+  </string-array>
+
+  <string-array name="snakeColor">
+    <item>Dark Gray</item>
+    <item>Light Gray</item>
+    <item>Blue</item>
+    <item>Yellow</item>
+  </string-array>
+
+  <string-array name="optionsAi">
+    <item>on</item>
+    <item>off</item>
+  </string-array>
+
+  <string-array name="optionsSpeed">
+    <item>Slow</item>
+    <item>Normal</item>
+    <item>Fast</item>
+    <item>Faster</item>
+    <item>FASTERR</item>
+    <item>I SAID FASTER</item>
+  </string-array>
+  
+  <string-array name="optionsMode">
+      <item>Small</item>
+      <item>Normal</item>
+      <item>Big</item>
+      <item>1mm</item>
+      <item>Double pixel</item>
+      <item>Pixel</item>
+  </string-array>
+</resources>

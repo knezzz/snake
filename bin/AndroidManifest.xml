@@ -1,0 +1,45 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="hr.knezzz.snake"
+  android:versionCode="0"
+  android:versionName="0.8">
+
+  <uses-sdk android:minSdkVersion="12" android:targetSdkVersion="19"
+            tools:ignore="OldTargetApi"/>
+
+  <application android:label="@string/app_name"
+    android:icon="@drawable/ic_launcher"
+    android:theme="@style/AppTheme"
+    android:backupAgent="SnakeBackup"
+    tools:ignore="AllowBackup">
+
+    <activity
+      android:name="hr.knezzz.snake.TitleScreen"
+      android:screenOrientation="portrait"
+      android:configChanges="keyboardHidden|orientation|screenSize"
+      android:theme="@android:style/Theme.Light.NoTitleBar" >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <activity android:label="@string/app_name"
+      android:name="hr.knezzz.snake.GameScreen"
+      android:screenOrientation="portrait"
+      android:theme="@android:style/Theme.Light.NoTitleBar"
+      android:configChanges="keyboardHidden|orientation|screenSize"
+      />
+
+    <activity android:label="@string/options"
+      android:name="hr.knezzz.snake.OptionsScreen"
+      android:screenOrientation="portrait"
+      android:theme="@android:style/Theme.Light.NoTitleBar"
+      android:configChanges="keyboardHidden|orientation|screenSize"
+      />
+
+    <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIEfaVMjDoZ0Pg9LNsjx4Ikj1P-aG1RAWQvWCTnQ" />
+
+  </application>
+
+</manifest>

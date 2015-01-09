@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@android:color/background_light" >
+
+ <TextView
+     android:id="@+id/score"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:gravity="center"
+     android:text=""
+     android:textColor="#11000000"
+     android:textSize="140sp" />
+ 
+ <TextView
+     android:id="@+id/prcent"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:gravity="bottom|right"
+     android:paddingBottom="30sp"
+     android:paddingRight="40sp"
+     android:text=""
+     android:textColor="#08000000"
+     android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/songState"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom|left"
+        android:paddingBottom="25sp"
+        android:paddingLeft="10sp"
+        android:text=""
+        android:textColor="#57000cff"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/songName"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom|right"
+        android:paddingBottom="35sp"
+        android:paddingRight="10sp"
+        android:paddingLeft="30sp"
+        android:text=""
+        android:textColor="#932d51ff"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/artistName"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom|right"
+        android:paddingBottom="20sp"
+        android:paddingRight="20sp"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#5a0c24ff"
+        android:textSize="15sp"/>
+
+    <FrameLayout
+        android:id="@+id/gameFrame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:id="@+id/controls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonLeftUp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#04000000"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/buttonRightDown"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>

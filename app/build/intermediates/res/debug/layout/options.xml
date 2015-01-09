@@ -1,0 +1,280 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:background="#c0dad6d5"
+    android:layout_height="fill_parent">
+
+ <!--   For making options big (full screen height)
+        <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">-->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/toggleLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/wallText"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/wall"
+                android:textSize="18sp" />
+
+            <ToggleButton
+                android:id="@+id/toggleWall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_buttons"
+                android:textOff="DISABLED"
+                android:textOn="ENABLED"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/colorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toggleLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/color"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/colorGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/colorText"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/snake_dkgray"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/snake_dkgray"
+                    android:button="@drawable/radio_buttons"
+                    android:checked="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/snake_ltgray"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/snake_ltgray"
+                    android:button="@drawable/radio_buttons" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/snake_blue"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/snake_blue"
+                    android:button="@drawable/radio_buttons" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/snake_green"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/snake_green"
+                    android:button="@drawable/radio_buttons"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/snake_yellow"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/snake_yellow"
+                    android:button="@drawable/radio_buttons" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/toggleLayout2"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/colorGroup"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/GlitchText"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/Glitch"
+            android:textSize="18sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleGlitch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_buttons"
+            android:textOff="DISABLED"
+            android:textOn="ENABLED"
+            android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/speedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toggleLayout2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/speed"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/speedGroup"
+            android:layout_width="fill_parent"
+            android:layout_below="@id/speedText"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/slow"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/slow"/>
+            <RadioButton
+                android:id="@+id/normal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/normal"/>
+            <RadioButton
+                android:id="@+id/fast"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/fast"/>
+            </RadioGroup>
+
+     <!--   <TextView
+            android:id="@+id/snakeSpeedPreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/speedText"
+            android:layout_centerHorizontal="true"
+            android:textSize="14sp" />
+
+        <SeekBar
+            android:id="@+id/sliderSpeed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/snakeSpeedPreview"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />-->
+
+        <!--
+                <TextView
+                    android:id="@+id/boardText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sliderSpeed"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/mode"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/boardSizePreview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/boardText"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14sp" />
+
+
+                <SeekBar
+                    android:id="@+id/boardSlider"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/boardSizePreview"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp" />
+
+                <TextView
+                    android:id="@+id/sizeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/boardSlider"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/size"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/snakeSizePreview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sizeText"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14sp" />
+
+                <SeekBar
+                    android:id="@+id/snakeSize"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/snakeSizePreview"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp" />-->
+<!--Button needs to be outside this view for 'big' options
+and has to add "align parent bottom true", and remove "layout below"-->
+            <Button
+                android:id="@+id/back"
+                android:layout_marginTop="15dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/speedGroup"
+                android:layout_centerHorizontal="true"
+                android:text="@string/back" />
+        </RelativeLayout>
+
+  <!--  </RelativeLayout>-->
+</LinearLayout>
+<!-- From: file:/Users/knezzz/AndroidStudioProjects/Snake/app/src/main/res/layout/options.xml -->

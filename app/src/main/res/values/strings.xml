@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Better Snake</string>
+
+    <string name="options">Snake Options</string>
+
+    <string name="optionsButton">Options</string>
+    <string name="aboutButton">About</string>
+    <string name="begin">Play</string>
+
+    <string name="wall">Walls</string>
+    <string name="color">Snake Color</string>
+    <string name="AI">AI</string>
+    <string name="Glitch">Glitch</string>
+    <string name="speed">Speed</string>
+    <string name="mode">Board size</string>
+    <string name="size">Starting snake size</string>
+
+    <string name="slow">Slow</string>
+    <string name="normal">Normal</string>
+    <string name="fast">Fast</string>
+
+    <string name="back">Back</string>
+
+    <string name="pause_continue">Continue</string>
+    <string name="pause_restart">Restart</string>
+    <string name="pause_options">Change options</string>
+    <string name="pause_exit">Exit</string>
+
+    <string name="over_again">Play again</string>
+
+    <!--DEVELOPMENT TESTING-->
+    <string name="song_name">Not listening to music</string>
+    <string name="song_prev_temp"><![CDATA[<<]]></string>
+    <string name="song_play_temp"><![CDATA[>|]]></string>
+    <string name="song_next_temp"><![CDATA[>>]]></string>
+    <string name="tileScreenExit">.exit</string>
+    <string name="tileScreenAbout">.about</string>
+    <string name="buttonDivider">|</string>
+    <string name="music_open">Start music when app opens</string>
+    <string name="music_close">Stop music when app closes</string>
+</resources>

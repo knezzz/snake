@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/knezzz/AndroidStudioProjects/Snake/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="AI">AI</string>
+    <string name="Glitch">Glitch</string>
+    <string name="aboutButton">About</string>
+    <string name="app_name">Better Snake</string>
+    <string name="back">Back</string>
+    <string name="begin">Play</string>
+    <string name="buttonDivider">|</string>
+    <string name="color">Snake Color</string>
+    <string name="fast">Fast</string>
+    <string name="mode">Board size</string>
+    <string name="music_close">Stop music when app closes</string>
+    <string name="music_open">Start music when app opens</string>
+    <string name="normal">Normal</string>
+    <string name="options">Snake Options</string>
+    <string name="optionsButton">Options</string>
+    <string name="over_again">Play again</string>
+    <string name="pause_continue">Continue</string>
+    <string name="pause_exit">Exit</string>
+    <string name="pause_options">Change options</string>
+    <string name="pause_restart">Restart</string>
+    <string name="size">Starting snake size</string>
+    <string name="slow">Slow</string>
+    <string name="song_name">Not listening to music</string>
+    <string name="song_next_temp"><![CDATA[>>]]></string>
+    <string name="song_play_temp"><![CDATA[>|]]></string>
+    <string name="song_prev_temp"><![CDATA[<<]]></string>
+    <string name="speed">Speed</string>
+    <string name="tileScreenAbout">.about</string>
+    <string name="tileScreenExit">.exit</string>
+    <string name="wall">Walls</string>
+    <!-- From: file:/Users/knezzz/AndroidStudioProjects/Snake/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar"/>
+</resources>

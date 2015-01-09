@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/knezzz/AndroidStudioProjects/Snake/app/build/intermediates/pre-dexed/release/support-annotations-20.0.0-cff14111b1b2d62846697aebb1a73572322af200.jar"
+        jar="/Users/knezzz/Documents/android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/Users/knezzz/AndroidStudioProjects/Snake/app/build/intermediates/pre-dexed/release/classes-baa74bd26b16094169de1af325b829bb1ac4fb48.jar"
+        jar="/Users/knezzz/AndroidStudioProjects/Snake/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="/Users/knezzz/AndroidStudioProjects/Snake/app/build/intermediates/pre-dexed/release/internal_impl-20.0.0-632e860177265512de959047b3071e7d4b6bd180.jar"
+        jar="/Users/knezzz/AndroidStudioProjects/Snake/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+
+</pre-dex-items>
